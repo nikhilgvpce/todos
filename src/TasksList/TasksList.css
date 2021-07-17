@@ -1,0 +1,46 @@
+.tasksList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50%;
+}
+
+.taskStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  opacity: 0.5;
+}
+
+.active {
+    opacity: 1;
+}
+
+.fa-times {
+    visibility: hidden;
+    color: red;
+}  
+
+.taskStyle:hover > .fa-times {
+    visibility: visible;
+}
+
+.fa-check-circle {
+    color: green;
+}
+
+.showTickIcon {
+    visibility: visible;
+}
+
+.hideTickIcon {
+    visibility: hidden;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.strike, .normal {
+    width: 90%;
+}

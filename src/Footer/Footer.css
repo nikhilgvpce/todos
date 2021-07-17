@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+input[type="radio"] {
+  visibility: hidden;
+}
+
+input[type="radio"]:checked + label {
+  border: 1px dashed grey;
+  padding: 5%;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.eachStatus {
+  display: flex;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.tasksStatus {
+  display: flex;
+}
+
+
+
+.clearCompleted:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

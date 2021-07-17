@@ -1,0 +1,9 @@
+.row {
+    width: 50%;
+    border: 1px solid grey;
+
+}
+
+.innerRow {
+    padding: 3%;
+}
