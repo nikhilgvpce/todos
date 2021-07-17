@@ -1,15 +1,15 @@
 .tasksList {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-left: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .taskStyle {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  opacity: 0.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 0.5;
 }
 
 .active {
@@ -19,9 +19,9 @@
 .fa-times {
     visibility: hidden;
     color: red;
-}  
+}
 
-.taskStyle:hover > .fa-times {
+.taskStyle:hover>.fa-times {
     visibility: visible;
 }
 
@@ -41,6 +41,7 @@
     text-decoration: line-through;
 }
 
-.strike, .normal {
+.strike,
+.normal {
     width: 90%;
 }

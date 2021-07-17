@@ -28,8 +28,6 @@ label:hover {
   display: flex;
 }
 
-
-
 .clearCompleted:hover {
     text-decoration: underline;
     cursor: pointer;
